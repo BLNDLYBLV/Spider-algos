@@ -35,10 +35,14 @@ int main()
             allzeroflag=0;
         }
     }
-    if(alloneflag==1 || allzeroflag==1){
+    if(alloneflag==1){
         cout<<-1;
     }
-    else{
+    else if(allzeroflag==1){
+        cout<<"0000 0000";
+    }
+    else
+    {
         int givenno=arraytonumber(given,n);
         // cout<<givenno<<'\n';
         int arr1[n],arr2[n];
