@@ -1,0 +1,9 @@
+a) In this problem, only when all the digits are one, we cannot get an average with both the binary numbers having same number of digits because if all the digits are 1, then for the greater part of the numbers which give average, must definitely be greater than the given number and hence must contain atleast an extra digit than the given number. And if all digits are not 1, I just print the given number plus 1 and given number minus 1 in binary form.
+
+b) First i find log2() of the length of the string to find the maximum no of times the string can be split. Then i start checking if the first half and second half are equal, if yes i move further and check whether the first two quarters are equal and each time i half the string the value of ans increases by 1, until i reach the the first character or if at some point the parts are not equal i break the loop and print the answer.
+
+c) First i ask the product of index 0 and 5 then 1 and 5. then I factorise each product because i know the possible factors which are given and in each product i find the common factor which must be the number at index 5. as i know the products i can find the numbers at index 0 and 1. Next i ask the product of 0 and 2 then 1 and 3 and if find the numbers at index 2 and 3 from these products. Now all my four queries are over, and now i have the numbers at index 0,1,2,3 and 5, so the missing number must be at index 4 . and hence i obtain the order of the numbers
+
+d) I get all the binary data of the competition dates, and while i get the data of the days he eats noodles, i check whether there is a competition on that day and if there is one, i add +x to val which is initialised with r and if there is no competition i subtract -y from val. atlast i check whether if val greater, lesser or equalto r and print the results
+
+--Sriram
